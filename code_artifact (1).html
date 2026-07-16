@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>66 Libros, Una Sola Historia - Estudio Bíblico</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Lora, Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #faf7f2; /* Warm Cream Tone */
+        }
+        .font-serif-serif {
+            font-family: 'Lora', Georgia, serif;
+        }
+        /* Elegant smooth animation for CTA pulse */
+        @keyframes custom-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+        .btn-pulse {
+            animation: custom-pulse 3s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="text-[#2c2520] min-h-screen flex flex-col selection:bg-[#4a5d4e] selection:text-white pb-24 md:pb-8">
+
+    <!-- Top Hero Header Section -->
+    <header class="bg-[#4a5d4e] text-white relative overflow-hidden py-12 px-6 md:py-20 shadow-lg">
+        <!-- Subtle Background Decorative Shape -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+            </svg>
+        </div>
+        
+        <div class="max-w-3xl mx-auto text-center relative z-10">
+            <span class="inline-block bg-[#5c7061] text-xs uppercase font-semibold tracking-widest px-3 py-1 rounded-full mb-4 text-emerald-100 shadow-sm">
+                Estudio Bíblico Gratuito
+            </span>
+            <h1 class="text-3xl md:text-5xl font-serif-serif font-bold tracking-tight leading-tight mb-4">
+                66 Libros, Una Sola Historia
+            </h1>
+            <p class="text-sm md:text-lg text-emerald-50/90 font-light italic leading-relaxed max-w-xl mx-auto">
+                "Le invitamos cordialmente a recorrer la gran narrativa de la Biblia en un ambiente cálido y de respeto."
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="flex-grow max-w-4xl mx-auto px-5 py-8 md:py-14 w-full">
+        
+        <!-- Core Golden Philosophy Quote -->
+        <section class="text-center mb-12">
+            <p class="font-serif-serif text-lg md:text-xl text-[#5c493c] italic font-semibold leading-relaxed max-w-2xl mx-auto">
+                "No importa de dónde venga, aquí todos aprendemos juntos."
+            </p>
+            <div class="w-12 h-0.5 bg-[#4a5d4e]/30 mx-auto mt-4"></div>
+        </section>
+
+        <!-- Main Introduction Description -->
+        <section class="prose max-w-none text-[#3d352e] leading-relaxed text-sm md:text-base space-y-4 mb-12">
+            <p class="text-justify">
+                Buscamos a personas que deseen recorrer el largo viaje de la Biblia paso a paso, leyendo y compartiendo en comunidad desde el principio. Sin estar atados a una iglesia o denominación en particular, se abre la puerta a un estudio bíblico autodirigido que se enfoca únicamente en la Biblia misma.
+            </p>
+            <p class="text-justify">
+                Le invitamos a ser parte de este grupo especial que caminará unido a través de una sola historia, contenida en los 66 libros, desde el Génesis hasta el Apocalipsis.
+            </p>
+        </section>
+
+        <!-- Old & New Testament Side-by-Side Cards -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-14">
+            <!-- Old Testament Block -->
+            <div class="bg-white p-6 rounded-2xl border border-[#e6e1da] shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="bg-[#5c7061] text-white font-bold text-xs px-2.5 py-1 rounded-full shadow-inner">39</span>
+                    <h3 class="font-serif-serif font-bold text-lg text-[#2e3d30]">Antiguo Testamento</h3>
+                </div>
+                <p class="text-xs md:text-sm text-[#555] leading-relaxed text-justify">
+                    Desde la creación del mundo hasta la promesa del Salvador — explore de manera profunda la ley, los libros históricos, poéticos y los escritos de los profetas.
+                </p>
+            </div>
+
+            <!-- New Testament Block -->
+            <div class="bg-white p-6 rounded-2xl border border-[#e6e1da] shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="bg-[#8c7462] text-white font-bold text-xs px-2.5 py-1 rounded-full shadow-inner">27</span>
+                    <h3 class="font-serif-serif font-bold text-lg text-[#5c493c]">Nuevo Testamento</h3>
+                </div>
+                <p class="text-xs md:text-sm text-[#555] leading-relaxed text-justify">
+                    La venida de Cristo, la pasión, el nacimiento y expansión de la iglesia primitiva, las epístolas y la sublime esperanza eterna en el libro de Apocalipsis.
+                </p>
+            </div>
+        </section>
+
+        <!-- Locations & Schedules Section -->
+        <section class="bg-white rounded-3xl border border-[#e6e1da] p-6 md:p-8 shadow-sm mb-14">
+            <h2 class="text-base md:text-lg font-bold text-[#2e3d30] border-l-4 border-[#4a5d4e] pl-3 mb-6 uppercase tracking-wider">
+                📍 Ubicación e Info de Clases
+            </h2>
+
+            <div class="space-y-6">
+                <!-- Locations -->
+                <div class="flex gap-4 items-start">
+                    <div class="bg-[#fcfaf7] p-3 rounded-xl border border-[#e6e1da] text-[#4a5d4e]">
+                        <i class="fa-solid fa-map-location-dot text-xl w-6 text-center"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#2c2520] text-sm md:text-base">Lugares de Encuentro</h4>
+                        <ul class="list-disc pl-5 mt-1.5 text-xs md:text-sm text-[#4a5d4e] font-medium space-y-1">
+                            <li>San José, Costa Rica</li>
+                            <li>Santa Sofía, Bogotá</li>
+                            <li>Argentina</li>
+                        </ul>
+                        <p class="text-[11px] text-[#8c7462] italic mt-2">
+                            * La dirección exacta de cada punto se proporcionará individualmente al momento de su confirmación.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Divider line -->
+                <div class="border-t border-[#f0eae1]"></div>
+
+                <!-- Intro Seminar -->
+                <div class="flex gap-4 items-start">
+                    <div class="bg-[#fcfaf7] p-3 rounded-xl border border-[#e6e1da] text-[#4a5d4e]">
+                        <i class="fa-regular fa-calendar-check text-xl w-6 text-center"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-[#2c2520] text-sm md:text-base">Seminario de Introducción</h4>
+                        <p class="text-xs md:text-sm text-[#555] mt-1">
+                            Un breve recorrido introductorio antes de comenzar las clases formales.
+                        </p>
+                        <p class="text-xs md:text-sm font-semibold text-[#2c2520] mt-1.5">
+                            📅 Período: Del 15/7 al 20/7 (3 Sesiones en Total)
+                        </p>
+                        <div class="grid grid-cols-3 gap-2 mt-2 max-w-md">
+                            <div class="bg-[#faf7f2] border border-[#e6e1da] text-center p-1.5 rounded-lg text-[11px]">
+                                <span class="block text-slate-500 font-medium">🌅 Mañana</span>
+                                <span class="font-bold text-[#4a5d4e]">07:30 a.m.</span>
+                            </div>
+                            <div class="bg-[#faf7f2] border border-[#e6e1da] text-center p-1.5 rounded-lg text-[11px]">
+                                <span class="block text-slate-500 font-medium">☀️ Tarde</span>
+                                <span class="font-bold text-[#4a5d4e]">02:30 p.m.</span>
+                            </div>
+                            <div class="bg-[#faf7f2] border border-[#e6e1da] text-center p-1.5 rounded-lg text-[11px]">
+                                <span class="block text-slate-500 font-medium">🌙 Noche</span>
+                                <span class="font-bold text-[#4a5d4e]">06:30 p.m.</span>
+                            </div>
+                        </div>
+                        <p class="text-[10px] text-slate-500 mt-1.5 italic">
+                            * Días de reunión: Lunes, Miércoles y Viernes. Puede elegir el horario que mejor se adapte a su rutina.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Divider line -->
+                <div class="border-t border-[#f0eae1]"></div>
+
+                <!-- Regular Classes -->
+                <div class="flex gap-4 items-start">
+                    <div class="bg-[#fcfaf7] p-3 rounded-xl border border-[#e6e1da] text-[#4a5d4e]">
+                        <i class="fa-solid fa-graduation-cap text-xl w-6 text-center"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#2c2520] text-sm md:text-base">Clases Regulares</h4>
+                        <p class="text-xs md:text-sm text-[#555] mt-1">
+                            El estudio continuo de todos los libros bíblicos de forma sistemática.
+                        </p>
+                        <p class="text-xs md:text-sm font-semibold text-emerald-700 mt-1.5">
+                            🚀 Gran Apertura: Miércoles 22 de Julio
+                        </p>
+                        <p class="text-xs text-slate-600 mt-1">
+                            • Días y Horas: Todos los Lunes, Miércoles y Viernes (Mismos turnos que el seminario)
+                        </p>
+                        <p class="inline-block bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-semibold px-2.5 py-0.5 rounded mt-2.5">
+                            ✦ 100% Gratuito y Libre
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Target Audience Section -->
+        <section class="bg-[#fcfaf7] p-6 md:p-8 rounded-3xl border border-[#e6e1da] mb-14">
+            <h3 class="font-bold text-base md:text-lg text-[#2e3d30] mb-4">💡 ¿Quiénes se benefician de este estudio?</h3>
+            <ul class="space-y-3.5 text-xs md:text-sm text-[#3d352e]">
+                <li class="flex items-start gap-3">
+                    <span class="flex-shrink-0 bg-emerald-100 text-emerald-800 p-1 rounded-full mt-0.5">
+                        <i class="fa-solid fa-check text-[10px]"></i>
+                    </span>
+                    <span>Aquellos que quieren realizar una lectura guiada, estructurada y profunda de la Biblia de principio a fin.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="flex-shrink-0 bg-emerald-100 text-emerald-800 p-1 rounded-full mt-0.5">
+                        <i class="fa-solid fa-check text-[10px]"></i>
+                    </span>
+                    <span>Personas interesadas en dialogar abiertamente de forma genuina, libre de imposiciones o tradiciones denominacionales.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="flex-shrink-0 bg-emerald-100 text-emerald-800 p-1 rounded-full mt-0.5">
+                        <i class="fa-solid fa-check text-[10px]"></i>
+                    </span>
+                    <span>Quienes buscan el soporte de una comunidad dispuesta a compartir reflexiones profundas de fe y vida espiritual.</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Final Aesthetic Call to Action Block -->
+        <section class="bg-[#f0eae1] rounded-3xl border border-[#dcd5cc] p-6 md:p-8 text-center shadow-inner relative overflow-hidden">
+            <div class="relative z-10 max-w-xl mx-auto">
+                <h3 class="font-serif-serif text-xl md:text-2xl font-bold text-[#4a5d4e] mb-3">
+                    "66 libros. ¿Está listo para comenzar este viaje juntos?"
+                </h3>
+                <p class="text-xs md:text-sm text-[#5c493c] leading-relaxed mb-6">
+                    Si tiene dudas sobre las clases, horarios disponibles o desea reservar un espacio, simplemente envíenos un mensaje por WhatsApp. Estaremos encantados de conversar y darle una cordial bienvenida.
+                </p>
+                
+                <!-- Desktop visible button, hidden on sticky-touch mobile view screen bottom -->
+                <div class="hidden md:block">
+                    <a href="https://wa.me/821098691227?text=Hola,%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20estudio%20b%C3%ADblico%20gratuito." 
+                       target="_blank" 
+                       class="inline-flex items-center gap-2 bg-[#25d366] hover:bg-[#20ba56] text-white font-bold px-8 py-4 rounded-xl shadow-md hover:shadow-lg transition-all btn-pulse">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Contactar por WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Mobile Sticky WhatsApp Contact Button -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-[#e6e1da] p-3 z-50 shadow-[0_-5px_15px_-3px_rgba(0,0,0,0.05)]">
+        <a href="https://wa.me/821098691227?text=Hola,%20me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20estudio%20b%C3%ADblico%20gratuito." 
+           target="_blank" 
+           class="w-full bg-[#25d366] active:bg-[#20ba56] text-white py-3.5 px-4 rounded-xl font-bold text-center flex items-center justify-center gap-2 shadow-sm transition-colors text-sm">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>Consultar por WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- Simple footer -->
+    <footer class="bg-white border-t border-[#e6e1da]/50 py-6 text-center text-xs text-[#8c7462]/80 mt-auto">
+        <p class="max-w-md mx-auto px-4 leading-relaxed">
+            &copy; 2026 Estudio Bíblico - 66 Libros, Una Sola Historia. Todos los derechos reservados.<br>
+            <span class="block text-[10px] text-slate-400 mt-1">Este espacio respeta la privacidad y no guarda afiliaciones externas.</span>
+        </p>
+    </footer>
+
+</body>
+</html>
